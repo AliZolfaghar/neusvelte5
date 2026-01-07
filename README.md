@@ -14,7 +14,7 @@ neu create app
 
 4) npm install @tailwindcss/vite
 
-5) change vite.config.js
+5) change vite.config.js 
     // vite.config.js
     import { defineConfig } from 'vite'
     import { svelte } from '@sveltejs/vite-plugin-svelte'
@@ -52,10 +52,33 @@ add to App.svelte
         </p>
       </div>
 
-9) copy neutralino from /app/resources/js to /app/frontend/public/js
+<!-- 9) copy neutralino from /app/resources/js to /app/frontend/public/js
     and rename mail.js to neutralino_app.js
 
 10) add this to 
     <script src="/js/neutralino.js"></script>
     <!-- Your app's source files -->
-    <script src="/js/main.js"></script>      
+    <script src="/js/main.js"></script>       -->
+
+
+
+
+
+
+
+
+# neutralinojs-minimal
+
+The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/getting-started/using-frontend-libraries).
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=neutralinojs/neutralinojs-minimal)](https://github.com/neutralinojs/neutralinojs-minimal/graphs/contributors)
+
+## License
+
+[MIT](LICENSE)
+
+## Icon credits
+
+- `trayIcon.png` - Made by [Freepik](https://www.freepik.com) and downloaded from [Flaticon](https://www.flaticon.com)

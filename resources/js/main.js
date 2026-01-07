@@ -9,27 +9,12 @@
     with details regarding the running Neutralino application, including
     its ID, port, operating system, and version information.
 */
-
-console.log('Neutralinojs init 1' , Neutralino);
-Neutralino.init();
-
-
-
-async function sendDataToSvelte(data) {
-    await Neutralino.events.dispatch('svelteData', data);
-    // await Neutralino.events.dispatch('myTestEvent', {myData: 'Test data'});
-}
-
-sendDataToSvelte({ message: 'Hello from Neutralino!' });
-
-
 function showInfo() {
-    console.log('NL_APPID',NL_APPID);
-    // document.getElementById('info').innerHTML = `
-    //     ${NL_APPID} is running on port ${NL_PORT} inside ${NL_OS}
-    //     <br/><br/>
-    //     <span>server: v${NL_VERSION} . client: v${NL_CVERSION}</span>
-    //     `;
+    document.getElementById('info').innerHTML = `
+        ${NL_APPID} is running on port ${NL_PORT} inside ${NL_OS}
+        <br/><br/>
+        <span>server: v${NL_VERSION} . client: v${NL_CVERSION}</span>
+        `;
 }
 
 /*

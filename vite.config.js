@@ -4,14 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: './',
-    plugins: [
-        tailwindcss(),
-        svelte()
-    ],
-    build: { 
-        outDir: '../resources', 
-        assetsDir: 'assets', 
-        emptyOutDir: true 
-    }    
+  plugins: [
+      tailwindcss(),
+      svelte()
+  ],
 })
+ 
